@@ -17,12 +17,14 @@ In DDA we need to consider two cases;
 
 One is slope of the line less than or equal to one (|m| ≤1) and slope of the line greater than one (m|> 1).
 
-1) When |m| ≤ 1 means y2-y1 = x2-x1 or y2-y1 <x2-x1.In both these cases we assume x to be the majoraxis. Therefore we sample x axis at unit intervals and find the y values corresponding to each x value. 
+1) When |m| ≤ 1 means y2-y1 = x2-x1 or y2-y1 <x2-x1.In both these cases we assume x to be the major
+axis. Therefore we sample x axis at unit intervals and find the y values corresponding to each x value. 
 
 We have the slope equation as
 ∆ y = m ∆ x
 y2-y1 = m (x2-x1)
-In general terms we can say that y i+1 - yi = m(x i+1 - xi ). But here ∆ x = 1; therefore the equationreduces to y i+1= yi + m = yi + dy/dx.
+In general terms we can say that y i+1 - yi = m(x i+1 - xi ). But here ∆ x = 1; therefore the equation
+reduces to y i+1= yi + m = yi + dy/dx.
 
 
 2) When | m| > 1 means y2-y1> x2-x1 and therefore we assume y to be the major axis. Here we sample 
