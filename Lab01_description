@@ -39,7 +39,7 @@ Algorithm:
 y2-y1 = m (x2-x1)
 2. Declare variables x,y,x1,y1,x2,y2,k,dx,dy,s,xi,yi and also declare 
 gdriver=DETECT, mode.
-3. Initialize the graphic mode with the path location in TurboC3 folder.
+3. Initialize the graphic mode .
 4. Input the two line end-points and store the left end-points in (x1,y1).
 5. Load (x1, y1) into the frame buffer; that is, plot the first point. put x=x1,y=y1.
 6. Calculate dx=x2-x1 and dy=y2-y1.
