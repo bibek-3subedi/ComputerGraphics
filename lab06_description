@@ -1,0 +1,51 @@
+Lab 06 
+Creating two dimensional objects
+
+Using certain graphic functions available in C-language for drawing lines, rectangles & circles, Write a CProgram which generates pixel activation list for drawing the following simple two dimensional objects
+(Circle, Ellipse…..).
+i) House ii) Car iii) Fish iv) man?
+Aim: To write a C-program for creating simple two dimensional shape of house, car, fish, man using lines,
+circles etc.
+
+Description:
+The following graphics functions are available for creating two dimensional shapes in C.
+line circle
+ellipse
+rectangle
+drawpoly
+
+line: line function is used to draw a line from a point(x1,y1) to point(x2,y2) i.e. (x1,y1) and (x2,y2)
+are end points of the line.
+Declaration: - line(x1, y1, x2, y2); ---line (100,200,300,400);
+
+Circle: Circle function is used to draw a circle with center (x, y) and third parameter specifies the
+radius of the circle.
+Declaration: circle(x, y, r)—circle (100, 200, 25) ;( 25 is radius of circle, (100,100) is center of
+circle).
+
+Ellipse: Ellipse is used to draw an ellipse (x, y) are coordinates of center of the ellipse, startangle is
+the starting angle, endangle is the ending angle, and fifth and sixth parameters specifies the X and
+Y radius of the ellipse. To draw a complete ellipse strangles and end angle should be 0 and 360
+respectively.
+
+Usage: ellipse(x, y, startangle, endangle, xradius, yradius);--ellipse(100,200,0,360,25,45);((100,200)
+is center of ellipse, 0 is start angle, 360 is end angle, 25 is x-axis radius, 45 is radius circle).
+Rectangle: rectangle function is used to draw a rectangle. Coordinates of left top and right bottom
+corner are required to draw the rectangle. left specifies the X-coordinate of top left corner, top
+specifies the Y-coordinate of top left corner, right specifies the X-coordinate of right bottom
+corner, bottom specifies the Y-coordinate of right bottom corner.
+
+Syntax: rectangle(left,top,right,bottom);--rectangle(100,200,300,400);
+
+Drawpoly: Drawpoly function is used to draw polygons i.e. triangle, rectangle, pentagon, hexagon
+etc.
+
+Syntax: drawpoly( num,points );--num indicates number of vertices of polygon. Num = num+1.
+
+Example: we will draw a triangle using drawpoly, consider for example the array :-
+int points[] = { 320, 150, 420, 300, 250, 300, 320, 150};
+points array contains coordinates of triangle which are (320, 150), (420, 300) and (250, 300). 
+Note that last point(320, 150) in array is same as first.
+
+Number of vertices are denoted by num. for any polygon, number of vertices are (num+1). For
+triangle, number of vertices are 4.
