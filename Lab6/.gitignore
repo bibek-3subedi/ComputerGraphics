@@ -1,0 +1,15 @@
+# Ignore compiled executables
+*.exe
+*.out
+
+# Ignore object files
+*.o
+
+# Ignore temporary files
+*.obj
+*.log
+*.tmp
+
+# Ignore IDE/editor files (optional)
+*.swp
+*.vscode/
