@@ -1,4 +1,4 @@
-
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](https://github.com/bibek-3subedi/ComputerGraphics/blob/main/SECURITY.md)
 # Computer Graphics 
 
 This repository contains my implementations of various computer graphics algorithms, developed as part of the Computer Graphics course. These programs have been configured to run in **Visual Studio Code** using the **WinBGIm** library.
